@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--外框线的大小-->
+    <attr name="rect_line_width" format="dimension" />
+    <!--外框线的颜色-->
+    <attr name="rect_color" format="color" />
+    <!--进度条与外框的间距-->
+    <attr name="padding_rect" format="dimension" />
+    <!--进度条的粗细-->
+    <attr name="progress_stroke_width" format="dimension" />
+    <!--进度条的颜色-->
+    <attr name="progress_color" format="color" />
+    <!--缓冲进度条的颜色-->
+    <attr name="secondary_progress_color" format="color" />
+    <!--进度条的方向-->
+    <attr name="orientation" format="enum">
+        <enum name="horizontal" value="0" />
+        <enum name="vartical" value="1"/>
+    </attr>
+    <declare-styleable name="CustomSeekBar">
+        <attr name="rect_line_width" />
+        <attr name="rect_color" />
+        <attr name="padding_rect" />
+        <attr name="progress_stroke_width" />
+        <attr name="progress_color" />
+        <attr name="secondary_progress_color" />
+        <attr name="orientation" />
+    </declare-styleable>
+</resources>
